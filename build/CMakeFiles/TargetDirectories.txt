@@ -1,0 +1,3 @@
+/C/Users/kenzy.sabry/CS2-Calculator-Dareen-Dina/build/CMakeFiles/calculator.dir
+/C/Users/kenzy.sabry/CS2-Calculator-Dareen-Dina/build/CMakeFiles/edit_cache.dir
+/C/Users/kenzy.sabry/CS2-Calculator-Dareen-Dina/build/CMakeFiles/rebuild_cache.dir
