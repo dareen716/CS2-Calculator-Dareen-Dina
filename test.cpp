@@ -1,29 +1,17 @@
-
-#include <iostream>
 #include "calculator.h"
+#include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-    
-    cout << "Addition: 5 + 3 = " << add(5, 3) << endl;
+    string expr;
 
-    
-   cout << "Subtraction: 8 - 2 = " << subtract(8, 2) << endl;
+    cout << "Enter a math expression (e.g. 3 + 4 * (2 - 1) / 5): ";
+   getline(cin, expr);
 
-   cout << "Multiplication: 4 * 7 = " << multiply(4, 7) << endl;
-
-   cout << "Division: 20 / 4 = " << divide(20, 4) << endl;
-   cout << "Division by zero: " << divide(20, 0) << endl;
-
-  cout << "Factorial of 5 = " << factorial(5) << endl;
-  cout << "Factorial of -5 = " << factorial(-5) << endl;
-
-    
-   cout << "GCD of 48 and 18 = " << gcd(48, 18) << endl;
-   cout << "LCM of 48 and 18 = " << lcm(48, 18) << endl;
-
-   cout << "Random number between 1 and 100 = " << randomInRange(1, 100) << endl;
-
+double result = evaluateExpression(expr);
+cout << "Expression result: " << result << endl;
+   
     return 0;
 }
